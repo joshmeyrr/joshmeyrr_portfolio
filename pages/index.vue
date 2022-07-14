@@ -6,8 +6,8 @@
 				class="bg-glass w-full rounded blur-glass p-4 relative z-10 shadow-custom"
 			>
 				<!-- <h2>Here is the card</h2> -->
-				<ul class="flex flex-col gap-2">
-					<li>
+				<ul class="flex flex-col gap-2 fade-links">
+					<li class="fade-in-link">
 						<a class="flex items-center gap-2 btn" href="mailto:joshmeyrr@gmail.com">
 							<font-awesome-icon
 								class="h-8 w-auto text-cta"
@@ -15,7 +15,7 @@
 							/><span>email</span>
 						</a>
 					</li>
-					<li>
+					<li class="fade-in-link">
 						<a
 							class="flex items-center gap-2 btn"
 							href="https://github.com/joshmeyrr"
@@ -27,7 +27,7 @@
 							/><span>github</span>
 						</a>
 					</li>
-					<li>
+					<li class="fade-in-link">
 						<a
 							class="flex items-center gap-2 btn"
 							href="https://twitter.com/joshmeyrr"
@@ -39,7 +39,7 @@
 							/><span>twitter</span>
 						</a>
 					</li>
-					<li>
+					<li class="fade-in-link">
 						<a
 							class="flex items-center gap-2 btn"
 							href="https://partner.canva.com/kj3D5n"
@@ -51,7 +51,7 @@
 							/><span>canva pro free trial</span>
 						</a>
 					</li>
-					<li>
+					<li class="fade-in-link">
 						<a
 							class="flex items-center gap-2 btn bg-cta"
 							href="https://www.buymeacoffee.com/joshmeyrr"
@@ -68,8 +68,8 @@
 			<nuxt-img
 				format="webp"
 				sizes="sm:100vw md:50vw lg:1200px"
-				class="object-cover w-auto h-96 absolute"
-				src="/background.png"
+				class="object-cover w-auto absolute image-size"
+				src="/bg-transparent.png"
 				alt="Logo"
 			/>
 		</div>
@@ -87,7 +87,38 @@ export default {
 }
 </script>
 <style lang="scss">
+@for $i from 1 to 6 {
+	.fade-links li:nth-child(#{$i}) {
+		animation-delay: $i * 200ms;
+	}
+}
+
 .blur-glass {
-	backdrop-filter: blur(3px);
+	backdrop-filter: blur(5px);
+}
+
+.image-size {
+	height: 31rem;
+}
+
+.fade-in-link {
+	transform: translateY(0.25rem);
+	opacity: 0;
+	// visibility: hidden;
+	animation: fade-in 0.5s both ease-in-out;
+}
+
+@keyframes fade-in {
+	from {
+		transform: translateY(0.25rem);
+		opacity: 0;
+		// visibility: visible;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+		// visibility: visible;
+	}
 }
 </style>

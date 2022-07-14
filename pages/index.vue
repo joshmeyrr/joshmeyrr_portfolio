@@ -1,6 +1,6 @@
 <template>
-	<div class="flex items-center justify-center flex-col px-4">
-		<div class="w-full relative flex items-center justify-center mt-16 max-w-lg">
+	<div class="flex items-center justify-center flex-col">
+		<div class="w-full relative flex items-center justify-center max-w-lg px-4">
 			<!-- card -->
 			<div
 				class="bg-glass w-full rounded blur-glass p-4 relative z-10 shadow-custom"

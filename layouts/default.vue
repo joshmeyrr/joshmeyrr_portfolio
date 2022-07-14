@@ -1,9 +1,8 @@
 <template>
-	<div class="bg-secondary">
+	<div class="bg-secondary min-h-screen">
 		<NavBar />
-		<!-- <Header class="px-6 container-site" /> -->
 		<Nuxt class="container-site" />
-		<!-- <Footer class="px-4 py-12 container-site" /> -->
+		<Footer />
 	</div>
 </template>
 <script>

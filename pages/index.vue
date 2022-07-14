@@ -1,5 +1,5 @@
 <template>
-	<div class="min-h-screen flex items-center flex-col px-4">
+	<div class="flex items-center justify-center flex-col px-4">
 		<div class="w-full relative flex items-center justify-center mt-16 max-w-lg">
 			<!-- card -->
 			<div
@@ -68,7 +68,7 @@
 			<nuxt-img
 				format="webp"
 				sizes="sm:100vw md:50vw lg:1200px"
-				class="object-cover w-auto absolute"
+				class="object-cover w-auto h-96 absolute"
 				src="/background.png"
 				alt="Logo"
 			/>

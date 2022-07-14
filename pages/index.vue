@@ -7,7 +7,7 @@
 			src="/logo.png"
 			alt="Logo"
 		/> -->
-		<div class="w-full relative flex items-center justify-center mt-16">
+		<div class="w-full relative flex items-center justify-center mt-16 max-w-lg">
 			<div class="bg-glass w-full rounded blur-glass p-4 relative z-10">
 				<!-- <h2>Here is the card</h2> -->
 				<ul class="flex flex-col gap-2">
@@ -38,7 +38,7 @@
 					<li>
 						<a
 							class="flex items-center gap-2 btn"
-							href="https://twitter.com/joshmeyrr"
+							href="https://partner.canva.com/kj3D5n"
 							target="_blank"
 						>
 							<font-awesome-icon
@@ -48,7 +48,11 @@
 						</a>
 					</li>
 					<li>
-						<a class="flex items-center gap-2 btn bg-cta" href="">
+						<a
+							class="flex items-center gap-2 btn bg-cta"
+							href="https://www.buymeacoffee.com/joshmeyrr"
+							target="_blank"
+						>
 							<font-awesome-icon
 								class="h-8 w-auto text-primary"
 								icon="fa-solid fa-coffee"

@@ -1,5 +1,6 @@
 <template>
 	<div class="bg-secondary">
+		<NavBar />
 		<!-- <Header class="px-6 container-site" /> -->
 		<Nuxt class="container-site" />
 		<!-- <Footer class="px-4 py-12 container-site" /> -->

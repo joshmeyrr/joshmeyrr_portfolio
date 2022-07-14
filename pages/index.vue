@@ -1,16 +1,20 @@
 <template>
-	<div class="min-h-screen flex flex-col items-center justify-center px-4">
-		<!-- <nuxt-img
-			format="webp"
-			sizes="sm:100vw md:50vw lg:1200px"
-			class="h-36 w-auto"
-			src="/logo.png"
-			alt="Logo"
-		/> -->
+	<div class="min-h-screen flex flex-col px-4">
 		<div class="w-full relative flex items-center justify-center mt-16 max-w-lg">
-			<div class="bg-glass w-full rounded blur-glass p-4 relative z-10">
+			<!-- card -->
+			<div
+				class="bg-glass w-full rounded blur-glass p-4 relative z-10 shadow-custom"
+			>
 				<!-- <h2>Here is the card</h2> -->
 				<ul class="flex flex-col gap-2">
+					<li>
+						<a class="flex items-center gap-2 btn" href="mailto:joshmeyrr@gmail.com">
+							<font-awesome-icon
+								class="h-8 w-auto text-cta"
+								icon="fa-solid fa-envelope-circle-check"
+							/><span>email</span>
+						</a>
+					</li>
 					<li>
 						<a
 							class="flex items-center gap-2 btn"

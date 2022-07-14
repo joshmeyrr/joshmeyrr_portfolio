@@ -1,5 +1,5 @@
 <template >
-	<div class="flex justify-center py-8">
+	<div class="flex justify-center pt-8 pb-20">
 		<nuxt-img
 			format="webp"
 			sizes="sm:100vw md:50vw lg:1200px"

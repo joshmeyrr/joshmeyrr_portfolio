@@ -1,5 +1,5 @@
 <template>
-	<div class="min-h-screen flex flex-col px-4">
+	<div class="min-h-screen flex items-center flex-col px-4">
 		<div class="w-full relative flex items-center justify-center mt-16 max-w-lg">
 			<!-- card -->
 			<div

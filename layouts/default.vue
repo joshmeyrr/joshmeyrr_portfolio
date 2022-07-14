@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-secondary min-h-screen">
+	<div class="">
 		<NavBar />
 		<Nuxt class="container-site py-24" />
 		<Footer />

@@ -12,6 +12,10 @@ $bold: 700;
 $semibold: 600;
 $regular: 400;
 
+html {
+	background-color: $color-secondary;
+}
+
 // Breakpoint prefix	Minimum width	CSS
 // sm	640px	@media (min-width: 640px) { ... }
 // md	768px	@media (min-width: 768px) { ... }

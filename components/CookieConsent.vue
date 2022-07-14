@@ -1,5 +1,5 @@
 <template>
-	<transition>
+	<transition name="fade">
 		<div
 			v-if="isOpen"
 			class="
@@ -45,9 +45,11 @@ export default {
 		}
 	},
 	created() {
-		if (!this.getGDPR() === true) {
-			this.isOpen = true
-		}
+		setTimeout(() => {
+			if (!this.getGDPR() === true) {
+				this.isOpen = true
+			}
+		}, 1000)
 	},
 	methods: {
 		getGDPR() {
@@ -77,14 +79,21 @@ export default {
 .cookie {
 	z-index: 99;
 }
-.v-enter-active,
-.v-leave-active {
-	transition: opacity 0.5s ease;
-	opacity: 1;
-}
+// .v-enter-active,
+// .v-leave-active {
+// 	transition: opacity 0.5s ease;
+// 	opacity: 1;
+// }
 
-.v-enter-from,
-.v-leave-to {
+// .v-enter-from,
+// .v-leave-to {
+// 	opacity: 0;
+// }
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.75s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
 	opacity: 0;
 }
 </style>

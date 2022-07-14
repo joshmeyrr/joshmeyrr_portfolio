@@ -76,11 +76,6 @@
 	</div>
 </template>
 
-    // "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    // "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    // "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    // "@fortawesome/vue-fontawesome": "^2.0.6",
-
 <script>
 export default {
 	name: 'IndexPage',
@@ -98,7 +93,7 @@ export default {
 }
 
 .image-size {
-	height: 31rem;
+	height: 25rem;
 }
 
 .fade-in-link {

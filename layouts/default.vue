@@ -1,7 +1,7 @@
 <template>
 	<div class="">
 		<NavBar />
-		<Nuxt class="container-site py-24" />
+		<Nuxt class="container-site py-16" />
 		<Footer />
 
 		<CookieConsent />

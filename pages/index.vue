@@ -10,7 +10,7 @@
 					<li class="fade-in-link">
 						<a class="flex items-center gap-2 btn" href="mailto:joshmeyrr@gmail.com">
 							<font-awesome-icon
-								class="h-8 w-auto text-cta"
+								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-envelope-circle-check"
 							/><span>email</span>
 						</a>
@@ -22,7 +22,7 @@
 							target="_blank"
 						>
 							<font-awesome-icon
-								class="h-8 w-auto text-cta"
+								class="w-8 h-auto text-cta"
 								icon="fa-brands fa-github"
 							/><span>github</span>
 						</a>
@@ -34,7 +34,7 @@
 							target="_blank"
 						>
 							<font-awesome-icon
-								class="h-8 w-auto text-cta"
+								class="w-8 h-auto text-cta"
 								icon="fa-brands fa-twitter"
 							/><span>twitter</span>
 						</a>
@@ -46,7 +46,7 @@
 							target="_blank"
 						>
 							<font-awesome-icon
-								class="h-8 w-auto text-cta"
+								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-object-group"
 							/><span>canva pro free trial</span>
 						</a>
@@ -58,7 +58,7 @@
 							target="_blank"
 						>
 							<font-awesome-icon
-								class="h-8 w-auto text-primary"
+								class="w-8 h-auto text-primary"
 								icon="fa-solid fa-coffee"
 							/><span class="text-dark">buy me a coffee</span>
 						</a>

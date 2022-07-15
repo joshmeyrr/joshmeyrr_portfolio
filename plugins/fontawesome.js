@@ -7,7 +7,8 @@ import {
 	faEnvelopeCircleCheck,
 	faCoffee,
 	faObjectGroup,
-	faRectangleXmark
+    faRectangleXmark,
+    faStar
 } from '@fortawesome/free-solid-svg-icons'
 import {
 	faFacebook,
@@ -33,7 +34,8 @@ library.add(
 	faTwitter,
 	faCoffee,
 	faObjectGroup,
-	faRectangleXmark
+    faRectangleXmark,
+    faStar
 )
 
 // Register the component globally

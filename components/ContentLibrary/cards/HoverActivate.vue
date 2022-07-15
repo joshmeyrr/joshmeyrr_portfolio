@@ -36,7 +36,7 @@
 <script>
 export default {}
 </script>
-<style lang="scss">
+<style scoped lang="scss">
 .fa-icon {
 	transition: all 1s ease-in-out;
 }

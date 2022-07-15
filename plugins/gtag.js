@@ -6,7 +6,7 @@ import VueGtag from 'vue-gtag'
 Vue.use(VueGtag, {
 	config: { id: 'G-EDYH2TPVTD' },
 	bootstrap: true,
-	enabled: true
+	enabled: true,
 })
 
 // Vue.use(VueGtag, {

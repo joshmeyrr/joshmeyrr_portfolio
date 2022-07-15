@@ -1,4 +1,4 @@
-<template >
+<template>
 	<div class="card">
 		<!-- <img class="card__media" src="/images/image.png" alt="" /> -->
 		<nuxt-img

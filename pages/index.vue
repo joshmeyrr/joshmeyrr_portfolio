@@ -8,7 +8,10 @@
 				<!-- <h2>Here is the card</h2> -->
 				<ul class="flex flex-col gap-2 fade-links">
 					<li class="fade-in-link">
-						<a class="flex items-center gap-2 btn" href="mailto:joshmeyrr@gmail.com">
+						<a
+							class="flex items-center gap-2 btn"
+							href="mailto:joshmeyrr@gmail.com"
+						>
 							<font-awesome-icon
 								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-envelope-circle-check"

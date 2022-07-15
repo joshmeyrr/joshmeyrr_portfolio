@@ -1,14 +1,21 @@
-<template >
+<template>
 	<div class="relative flex items-center justify-between px-8 pt-4">
-		<nuxt-img
-			format="webp"
-			sizes="sm:100vw md:50vw lg:1200px"
-			class="relative z-50 w-auto h-20"
-			src="/logo.png"
-			alt="Logo"
-		/>
+		<nuxt-link
+			class="relative z-50 text-secondary"
+			to="/"
+			@click.native="closeNav()"
+		>
+			<nuxt-img
+				format="webp"
+				sizes="sm:100vw md:50vw lg:1200px"
+				class="w-auto h-20"
+				src="/logo.png"
+				alt="Logo"
+			/>
+		</nuxt-link>
 		<div class="relative z-50" @click="toggleNav()">
-			<font-awesome-icon
+			<AtomHamburgerIcon :is-nav-active="isNavActive" />
+			<!-- <font-awesome-icon
 				v-if="isNavActive"
 				class="w-8 h-auto text-secondary"
 				icon="fa-solid fa-x"
@@ -17,20 +24,21 @@
 				v-else
 				class="w-8 h-auto text-primary"
 				icon="fa-solid fa-bars"
-			/>
+			/> -->
 		</div>
 		<transition name="fade">
 			<div
 				v-if="isNavActive"
 				class="fixed top-0 left-0 z-40 flex items-center justify-center w-screen h-screen  bg-primary"
+				@click="closeNav()"
 			>
 				<ul
 					class="flex flex-col items-center gap-8 text-2xl font-black uppercase  nav-link-parent"
 				>
-					<li @click="closeNav()" class="nav-link">
+					<li class="nav-link" @click="closeNav()">
 						<nuxt-link class="text-secondary" to="/"> Home </nuxt-link>
 					</li>
-					<li @click="closeNav()" class="nav-link">
+					<li class="nav-link" @click="closeNav()">
 						<nuxt-link class="text-secondary" to="/library">
 							Component Library
 						</nuxt-link>

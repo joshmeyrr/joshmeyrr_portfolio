@@ -1,30 +1,18 @@
 <template>
-	<div class="relative flex items-center justify-between px-8 pt-4">
-		<nuxt-link
-			class="relative z-50 text-secondary"
-			to="/"
-			@click.native="closeNav()"
-		>
-			<nuxt-img
-				format="webp"
-				sizes="sm:100vw md:50vw lg:1200px"
-				class="w-auto h-20"
-				src="/logo.png"
-				alt="Logo"
-			/>
-		</nuxt-link>
-		<div class="relative z-50" @click="toggleNav()">
-			<AtomHamburgerIcon :is-nav-active="isNavActive" />
-			<!-- <font-awesome-icon
-				v-if="isNavActive"
-				class="w-8 h-auto text-secondary"
-				icon="fa-solid fa-x"
-			/>
-			<font-awesome-icon
-				v-else
-				class="w-8 h-auto text-primary"
-				icon="fa-solid fa-bars"
-			/> -->
+	<div class="relative">
+		<div class="relative z-50 flex items-center justify-between px-8 pt-4">
+			<nuxt-link class="text-secondary" to="/" @click.native="closeNav()">
+				<nuxt-img
+					format="webp"
+					sizes="sm:100vw md:50vw lg:1200px"
+					class="w-auto h-20"
+					src="/logo.png"
+					alt="Logo"
+				/>
+			</nuxt-link>
+			<div class="" @click="toggleNav()">
+				<AtomHamburgerIcon :is-nav-active="isNavActive" />
+			</div>
 		</div>
 		<transition name="fade">
 			<div
@@ -54,6 +42,16 @@ export default {
 		return {
 			isNavActive: false,
 		}
+	},
+	watch: {
+		isNavActive() {
+			if (this.isNavActive) {
+				document.documentElement.style.overflow = 'hidden'
+				return
+			}
+
+			document.documentElement.style.overflow = 'auto'
+		},
 	},
 	methods: {
 		toggleNav() {

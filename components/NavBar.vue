@@ -5,7 +5,7 @@
 				<nuxt-img
 					format="webp"
 					sizes="sm:100vw md:50vw lg:1200px"
-					class="w-auto h-20"
+					class="w-auto h-14"
 					src="/logo.png"
 					alt="Logo"
 				/>

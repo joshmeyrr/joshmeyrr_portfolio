@@ -1,9 +1,9 @@
 <template>
-	<div class="flex items-center justify-center flex-col">
-		<div class="w-full relative flex items-center justify-center max-w-lg px-4">
+	<div class="flex flex-col items-center justify-center">
+		<div class="relative flex items-center justify-center w-full max-w-lg px-4">
 			<!-- card -->
 			<div
-				class="bg-glass w-full rounded blur-glass p-4 relative z-10 shadow-custom"
+				class="relative z-10 w-full p-4 rounded bg-glass blur-glass shadow-custom"
 			>
 				<!-- <h2>Here is the card</h2> -->
 				<ul class="flex flex-col gap-2 fade-links">
@@ -68,7 +68,7 @@
 			<nuxt-img
 				format="webp"
 				sizes="sm:100vw md:50vw lg:1200px"
-				class="object-cover w-auto absolute image-size"
+				class="absolute object-cover w-auto image-size"
 				src="/bg-transparent.png"
 				alt="Logo"
 			/>

@@ -1,6 +1,9 @@
 <template>
 	<div class="flex flex-col items-center justify-center">
-		<div class="relative flex items-center justify-center w-full max-w-lg px-4">
+		<MoleculeSectionHeader :header="'let\'s connect'" />
+		<div
+			class="relative flex items-center justify-center w-full max-w-lg px-4 py-20"
+		>
 			<!-- card -->
 			<OrganismLinkCard />
 			<nuxt-img

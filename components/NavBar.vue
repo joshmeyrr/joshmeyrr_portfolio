@@ -1,6 +1,6 @@
 <template>
-	<div class="relative">
-		<div class="relative z-50 flex items-center justify-between px-8 pt-4">
+	<div class="px-8 py-4 bg-dark">
+		<div class="relative z-50 flex items-center justify-between">
 			<nuxt-link class="text-secondary" to="/" @click.native="closeNav()">
 				<nuxt-img
 					format="webp"

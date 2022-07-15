@@ -1,5 +1,9 @@
 <template>
-	<div id="hamburger-6" class="hamburger" :class="{ 'is-active': isNavActive }">
+	<div
+		id="hamburger-6"
+		class="cursor-pointer hamburger"
+		:class="{ 'is-active': isNavActive }"
+	>
 		<span :class="{ 'bg-secondary': isNavActive }" class="line"></span>
 		<span :class="{ 'bg-secondary': isNavActive }" class="line"></span>
 		<span :class="{ 'bg-secondary': isNavActive }" class="line"></span>

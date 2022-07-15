@@ -1,8 +1,8 @@
 <template>
-	<div class="">
-		<NavBar />
-		<Nuxt class="container-site py-16" />
-		<Footer />
+	<div class="min-h-screen">
+		<NavBar class="fixed z-50 w-full container-site shadow-custom" />
+		<Nuxt class="pt-48 container-site" />
+		<Footer class="container-site" />
 
 		<CookieConsent />
 	</div>

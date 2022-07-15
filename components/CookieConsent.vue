@@ -2,19 +2,7 @@
 	<transition name="fade">
 		<div
 			v-if="isOpen"
-			class="
-				fixed
-				bottom-0
-				left-0
-				items-center
-				justify-center
-				w-full
-				py-4
-				px-8
-				bg-dark
-				shadow-custom
-				lg:flex
-			"
+			class="fixed bottom-0 left-0 items-center justify-center w-full px-8 py-4  bg-dark shadow-custom lg:flex"
 		>
 			<div class="flex items-center justify-center gap-8">
 				<p class="max-w-sm">We use basic cookies to optimize performance.</p>

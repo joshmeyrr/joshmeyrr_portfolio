@@ -4,9 +4,9 @@
 		class="cursor-pointer hamburger"
 		:class="{ 'is-active': isNavActive }"
 	>
-		<span :class="{ 'bg-secondary': isNavActive }" class="line"></span>
-		<span :class="{ 'bg-secondary': isNavActive }" class="line"></span>
-		<span :class="{ 'bg-secondary': isNavActive }" class="line"></span>
+		<span :class="{ 'bg-dark': isNavActive }" class="line"></span>
+		<span :class="{ 'bg-dark': isNavActive }" class="line"></span>
+		<span :class="{ 'bg-dark': isNavActive }" class="line"></span>
 	</div>
 </template>
 <script>

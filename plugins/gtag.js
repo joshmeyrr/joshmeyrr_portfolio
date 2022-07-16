@@ -4,7 +4,7 @@ import VueGtag from 'vue-gtag'
 // const getGDPR = localStorage.getItem('GDPR:accepted')
 
 Vue.use(VueGtag, {
-	// config: { id: 'G-EDYH2TPVTD' },
+	config: { id: 'G-EDYH2TPVTD' },
 	bootstrap: true,
 	enabled: true
 })

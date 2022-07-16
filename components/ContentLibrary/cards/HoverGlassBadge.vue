@@ -5,15 +5,11 @@
 			<ul class="card__badge-content">
 				<li class="card__badge-content-item">
 					<i class="card__badge-content-item-check fa-solid fa-circle-check"></i
-					><span class="card__badge-content-item-description"
-						>Brand Design</span
-					>
+					><span class="card__badge-content-item-description">Brand Design</span>
 				</li>
 				<li class="card__badge-content-item">
 					<i class="card__badge-content-item-check fa-solid fa-circle-check"></i
-					><span class="card__badge-content-item-description"
-						>Web Development</span
-					>
+					><span class="card__badge-content-item-description">Web Development</span>
 				</li>
 				<li class="card__badge-content-item">
 					<i class="card__badge-content-item-check fa-solid fa-circle-check"></i

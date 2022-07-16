@@ -7,6 +7,7 @@
 		<div class="flex flex-wrap justify-center gap-8 py-16">
 			<ContentLibraryCardsHoverActivate />
 			<ContentLibraryCardsHoverGlassBadge />
+			<ContentLibraryCardsImageBlur />
 		</div>
 	</div>
 </template>

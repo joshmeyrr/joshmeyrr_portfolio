@@ -38,52 +38,44 @@
 				<div class="w-full p-8 w/1-2">
 					<h2>What can I do?</h2>
 					<ul
-						class="
-							flex flex-col
-							gap-4
-							mt-4
-							text-2xl
-							font-black
-							tracking-widest
-							uppercase
-						"
+						class="flex flex-col gap-4 mt-4 text-2xl font-black tracking-widest uppercase "
 					>
-						<li class="flex gap-4">
+						<li class="flex items-center gap-2">
 							<font-awesome-icon
 								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>vue js</span>
 						</li>
-						<li class="flex gap-4">
+						<li class="flex items-center gap-2">
 							<font-awesome-icon
 								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>React</span>
 						</li>
-						<li class="flex gap-4">
+						<li class="flex items-center gap-2">
 							<font-awesome-icon
 								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>wordpress</span>
 						</li>
-						<li class="flex gap-4">
+						<li class="flex items-center gap-2">
 							<font-awesome-icon
 								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>node</span>
 						</li>
-						<li class="flex gap-4">
+						<li class="flex items-center gap-2">
 							<font-awesome-icon
 								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>Strapi</span>
 						</li>
-						<li class="flex gap-4">
+						<li class="flex items-center gap-2">
 							<font-awesome-icon
 								class="w-8 h-auto text-cta"
 								icon="fa-solid fa-circle-check"

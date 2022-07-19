@@ -42,42 +42,42 @@
 					>
 						<li class="flex items-center gap-2">
 							<font-awesome-icon
-								class="w-8 h-auto text-cta"
+								class="w-6 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>vue js</span>
 						</li>
 						<li class="flex items-center gap-2">
 							<font-awesome-icon
-								class="w-8 h-auto text-cta"
+								class="w-6 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>React</span>
 						</li>
 						<li class="flex items-center gap-2">
 							<font-awesome-icon
-								class="w-8 h-auto text-cta"
+								class="w-6 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>wordpress</span>
 						</li>
 						<li class="flex items-center gap-2">
 							<font-awesome-icon
-								class="w-8 h-auto text-cta"
+								class="w-6 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>node</span>
 						</li>
 						<li class="flex items-center gap-2">
 							<font-awesome-icon
-								class="w-8 h-auto text-cta"
+								class="w-6 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>Strapi</span>
 						</li>
 						<li class="flex items-center gap-2">
 							<font-awesome-icon
-								class="w-8 h-auto text-cta"
+								class="w-6 h-auto text-cta"
 								icon="fa-solid fa-circle-check"
 							/>
 							<span>PPC Ads</span>

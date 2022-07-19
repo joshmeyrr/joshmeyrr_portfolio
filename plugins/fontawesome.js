@@ -11,13 +11,14 @@ import {
 	faStar,
 	faBars,
 	faX,
+	faCircleCheck
 } from '@fortawesome/free-solid-svg-icons'
 import {
 	faFacebook,
 	faInstagramSquare,
 	faGithub,
 	faLinkedin,
-	faTwitter,
+	faTwitter
 } from '@fortawesome/free-brands-svg-icons'
 
 // This is important, we are going to let Nuxt.js worry about the CSS
@@ -39,7 +40,8 @@ library.add(
 	faRectangleXmark,
 	faStar,
 	faBars,
-	faX
+	faX,
+	faCircleCheck
 )
 
 // Register the component globally

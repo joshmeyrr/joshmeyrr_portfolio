@@ -1,5 +1,5 @@
 <template>
-	<div class="px-8 py-4 bg-dark">
+	<div class="px-8 py-4">
 		<div class="relative z-50 flex items-center justify-between">
 			<nuxt-link class="text-secondary" to="/" @click.native="closeNav()">
 				<nuxt-img
@@ -25,6 +25,9 @@
 				>
 					<li class="nav-link" @click="closeNav()">
 						<nuxt-link class="text-secondary" to="/"> Home </nuxt-link>
+					</li>
+					<li class="nav-link" @click="closeNav()">
+						<nuxt-link class="text-secondary" to="/connect"> Connect </nuxt-link>
 					</li>
 					<li class="nav-link" @click="closeNav()">
 						<nuxt-link class="text-secondary" to="/library">
@@ -64,9 +67,9 @@ export default {
 }
 </script>
 <style lang="scss">
-@for $i from 1 to 3 {
+@for $i from 1 to 4 {
 	.nav-link-parent li:nth-child(#{$i}) {
-		animation-delay: $i * 100ms;
+		animation-delay: $i * 200ms;
 	}
 }
 

@@ -1,26 +1,53 @@
 <template>
-	<div class="flex flex-col items-center justify-center">
-		<MoleculeSectionHeader :header="'let\'s connect'" />
+	<div class="flex flex-col items-center">
 		<div
-			class="relative flex items-center justify-center w-full max-w-lg px-4 py-20"
+			class="
+				image-overlay
+				relative
+				w-full
+				h-[50vh]
+				flex
+				items-center
+				justify-center
+			"
 		>
-			<!-- card -->
-			<OrganismLinkCard />
 			<nuxt-img
 				format="webp"
 				sizes="sm:100vw md:50vw lg:1200px"
-				class="absolute object-cover w-auto image-size"
-				src="/bg-transparent.png"
+				class="object-cover w-full h-full"
+				src="/components/image.png"
 				alt="Logo"
 			/>
+			<MoleculeSectionHeader class="absolute z-10" :header="'@joshmeyrr'" />
 		</div>
+		<div
+			class="
+				h-[25rem]
+				w-[20rem]
+				bg-dark
+				rounded
+				mt-[-5rem]
+				shadow-custom
+				relative
+				z-10
+			"
+		></div>
 	</div>
 </template>
-
 <script>
-export default {
-	name: 'IndexPage',
-}
+export default {}
 </script>
 <style lang="scss">
+.image-overlay {
+	&::after {
+		content: '';
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.4);
+		// z-index: 99;
+	}
+}
 </style>

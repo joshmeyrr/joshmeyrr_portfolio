@@ -1,7 +1,9 @@
 <template>
 	<div class="min-h-screen">
-		<NavBar class="fixed z-50 w-full shadow-custom" />
-		<Nuxt class="pt-44 container-site" />
+		<div class="flex justify-center">
+			<NavBar class="fixed z-50 w-full container-site" />
+		</div>
+		<Nuxt class="container-site" />
 		<Footer class="container-site" />
 
 		<CookieConsent />

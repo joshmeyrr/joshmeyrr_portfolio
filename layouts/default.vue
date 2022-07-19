@@ -1,7 +1,10 @@
 <template>
 	<div class="min-h-screen">
-		<div class="flex justify-center" :class="{ 'bg-dark shadow-custom': true }">
-			<NavBar class="fixed z-50 w-full container-site" />
+		<div
+			class="fixed z-50 flex justify-center w-full transition-all"
+			:class="{ 'bg-dark shadow-custom': scrollPosition > 50 }"
+		>
+			<NavBar class="w-full container-site" />
 		</div>
 		<Nuxt class="container-site" />
 		<Footer class="container-site" />

@@ -5,7 +5,7 @@
 				<nuxt-img
 					format="webp"
 					sizes="sm:100vw md:50vw lg:1200px"
-					class="w-auto h-14"
+					class="w-auto md:h-24 h-14"
 					src="/logo.png"
 					alt="Logo"
 				/>
@@ -17,30 +17,11 @@
 		<transition name="fade">
 			<div
 				v-if="isNavActive"
-				class="
-					fixed
-					top-0
-					left-0
-					z-40
-					flex
-					items-center
-					justify-center
-					w-screen
-					h-screen
-					bg-primary
-				"
+				class="fixed top-0 left-0 z-40 flex items-center justify-center w-screen h-screen  bg-primary"
 				@click="closeNav()"
 			>
 				<ul
-					class="
-						flex flex-col
-						items-center
-						gap-8
-						text-2xl
-						font-black
-						uppercase
-						nav-link-parent
-					"
+					class="flex flex-col items-center gap-8 text-2xl font-black uppercase  nav-link-parent"
 				>
 					<li class="nav-link" @click="closeNav()">
 						<nuxt-link class="text-secondary" to="/"> Home </nuxt-link>

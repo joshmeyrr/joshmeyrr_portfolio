@@ -9,15 +9,16 @@ export default {
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ hid: 'description', name: 'description', content: '' },
-			{ name: 'format-detection', content: 'telephone=no' }
+			{ name: 'format-detection', content: 'telephone=no' },
+			{ name: 'ir-site-verification-token', value: '904338649' },
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
 			{
 				rel: 'stylesheet',
-				href: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'
-			}
-		]
+				href: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap',
+			},
+		],
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
@@ -26,7 +27,7 @@ export default {
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
 		'~/plugins/fontawesome.js',
-		{ src: '~/plugins/gtag.js', mode: 'client' }
+		{ src: '~/plugins/gtag.js', mode: 'client' },
 	],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
@@ -39,14 +40,14 @@ export default {
 		// https://go.nuxtjs.dev/tailwindcss
 		'@nuxtjs/tailwindcss',
 		'nuxt-font-loader',
-		'@nuxt/image'
+		'@nuxt/image',
 	],
 
 	fontLoader: {
 		url: 'https://use.typekit.net/jnc2xnr.css',
 
 		prefetch: true,
-		preconnect: true
+		preconnect: true,
 	},
 
 	// Modules: https://go.nuxtjs.dev/config-modules
@@ -56,20 +57,20 @@ export default {
 		// https://go.nuxtjs.dev/pwa
 		'@nuxtjs/pwa',
 		// https://go.nuxtjs.dev/content
-		'@nuxt/content'
+		'@nuxt/content',
 	],
 
 	// Axios module configuration: https://go.nuxtjs.dev/config-axios
 	axios: {
 		// Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-		baseURL: '/'
+		baseURL: '/',
 	},
 
 	// PWA module configuration: https://go.nuxtjs.dev/pwa
 	pwa: {
 		manifest: {
-			lang: 'en'
-		}
+			lang: 'en',
+		},
 	},
 
 	// Content module configuration: https://go.nuxtjs.dev/config-content
@@ -80,6 +81,6 @@ export default {
 
 	server: {
 		port: 8000, // default: 3000
-		host: '0.0.0.0' // default: localhost
-	}
+		host: '0.0.0.0', // default: localhost
+	},
 }

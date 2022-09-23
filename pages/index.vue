@@ -36,7 +36,7 @@
 				"
 			>
 				<div class="w-full p-8 w/1-2">
-					<h2>What can I do?</h2>
+					<h2 class="uppercase">What can I do?</h2>
 					<ul
 						class="flex flex-col gap-4 mt-4 text-2xl font-black tracking-widest uppercase "
 					>
@@ -85,7 +85,7 @@
 					</ul>
 				</div>
 				<div class="w-full p-8 w/1-2 bg-primary text-dark">
-					<h2>Who am I?</h2>
+					<h2 class="uppercase">Who am I?</h2>
 					<p>
 						My name is Josh, and I am a father, husband, and web developer. I love
 						building web sites and web applications. I especially love working on the

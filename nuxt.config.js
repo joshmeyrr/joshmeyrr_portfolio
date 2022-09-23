@@ -10,7 +10,7 @@ export default {
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ hid: 'description', name: 'description', content: '' },
 			{ name: 'format-detection', content: 'telephone=no' },
-			{ name: 'ir-site-verification-token', value: '904338649' },
+			// { name: 'ir-site-verification-token', value: '904338649' },
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

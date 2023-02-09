@@ -6,7 +6,7 @@
 		/>
 		<div class="flex flex-wrap justify-center gap-8 py-16">
 			<ContentLibraryButtonsGradient />
-			<ContentLibraryCardsHoverGlassBadge />
+			<!-- <ContentLibraryCardsHoverGlassBadge /> -->
 			<ContentLibraryCardsHoverActivate />
 		</div>
 	</div>

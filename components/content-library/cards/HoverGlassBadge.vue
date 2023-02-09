@@ -45,7 +45,7 @@ export default {}
 .card {
 	height: 25rem;
 	width: 20rem;
-	background-image: url('~/static/components/image.png');
+	// background-image: url('~/static/components/image.png');
 	background-size: cover;
 	border-radius: 0.5rem;
 	transition: all 1s ease-in-out;
